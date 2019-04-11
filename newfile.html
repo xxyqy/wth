@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function ye (a,b,j) {
+				switch (j){
+					case '*':
+					    alert(a*b)
+						break;
+					case '+':
+					    alert(a+b)
+						break;
+					case '-':
+					     alert(a-b)
+						 break;
+				    case '/':
+					    alert((a/b).toFixed(2))
+						break;
+				}
+			}
+			ye(Number(prompt('请输入数字1')),Number(prompt('请输入数字2')),prompt('请输入运算符'));
+		</script>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript">
+			var arr=[2,3,1,4,7,9];
+			for(var a=0;a<arr.length-1;a++){
+				for(var b=0;b<arr.length-1-a;b++){
+					if(arr[b]>arr[b+1]){
+						var mmp=arr[b];
+						arr[b]=arr[b+1];
+						arr[b+1]=mmp;
+					}
+				}
+			}
+			document.write(arr);
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
